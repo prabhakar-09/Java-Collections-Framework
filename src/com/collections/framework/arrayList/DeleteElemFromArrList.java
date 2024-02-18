@@ -34,6 +34,10 @@ public class DeleteElemFromArrList {
 		demo.removeAll(demo2); // it'll remove all the elemns in the demo2 list which present in demo list
 		
 		System.out.println(demo);
+		
+		demo.clear(); // clears the entire list
+		
+		System.out.println(demo);
 	}
 
 }
