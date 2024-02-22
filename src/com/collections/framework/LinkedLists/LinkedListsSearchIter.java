@@ -22,5 +22,14 @@ public class LinkedListsSearchIter {
 		
 //		Finding elements of last occurrences of elements
 		System.out.println(languages.lastIndexOf("Telugu")); // returns 5
+		
+//		Iterator : 
+		Iterator<String> iter = languages.iterator();
+		while(iter.hasNext()) {
+			
+			String value = (String) iter.next();
+			
+			System.out.println(value);
+		}
 	}
 }
