@@ -31,5 +31,28 @@ public class LinkedListsSearchIter {
 			
 			System.out.println(value); 
 		}
+		
+//		using for each loop:
+		System.out.println();
+		languages.forEach((elem)->{
+			System.out.println("Inside forEach " + elem);
+		});
+		
+		System.out.println();
+		
+//		advanced for each loop
+		for(String lang : languages) {
+			
+			System.out.println("Inside advanced for "+lang);
+		}
+		
+		System.out.println();
+
+//		Simple for loops 
+		for(int i=0;i<languages.size();i++) {
+			System.out.println("Inside normal for " + languages.get(i));
+		}
+		
+		
 	}
 }
