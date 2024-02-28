@@ -2,6 +2,7 @@ package com.collections.framework.hashMaps;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 // Parent is a MAP interface 
 public class HashMapsIntro {
@@ -54,10 +55,13 @@ public class HashMapsIntro {
 		System.out.println();
 		
 //		getting all the keys from the hashmap
-		System.out.println(students.keySet());
+		System.out.println("Getting all keys " + students.keySet());
 		
 //		Getting all the values 
-		String<keys> key = students.values()
+		Set<String> key = students.keySet(); // Values will return a collection 
+		
+//		Getting all the values..
+		System.out.println("Values of keys   " + students.values());
 	}
 
 }
