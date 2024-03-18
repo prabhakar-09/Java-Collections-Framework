@@ -1,12 +1,23 @@
 package com.collections.framework.LinkedLists;
 
+import java.util.LinkedList;
+
 // A simple comparison class for Arr List & Linked lists
 public class ArrListVsLinkedList {
 
 	public static void main(String[] args) {
 
+		LinkedList<String> cars = new LinkedList<>();
 		
+		cars.add("Volvo");
+		cars.add("Swift");
+		cars.add("Tata");
+		cars.add("VW");
+		cars.add("Ferrari");
 		
+		System.out.println(cars); //out : [Volvo, Swift, Tata, VW, Ferrari]
+
+		 
 	}
 
 }
